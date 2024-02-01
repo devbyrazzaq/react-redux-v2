@@ -1,9 +1,16 @@
-import React from 'react'
-
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        height: "100vh",
+        alignItems: "center",
+      }}
+    >
+      <h2>COUNTER APP</h2>
+    </div>
+  );
+};
 
-export default App
+export default App;
