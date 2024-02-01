@@ -1,3 +1,5 @@
+import Counter from "./components/Counter";
+
 const App = () => {
   return (
     <div
@@ -8,7 +10,12 @@ const App = () => {
         alignItems: "center",
       }}
     >
-      <h2>COUNTER APP</h2>
+      <div className="">
+        <h2>COUNTER APP</h2>
+        <div className="">
+          <Counter />
+        </div>
+      </div>
     </div>
   );
 };
